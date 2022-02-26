@@ -1,0 +1,22 @@
+{
+  "version": 2,
+  "dgSpecHash": "XDLGvIjik2w3Ig6byNvQzP9xe6/zQ94NwUrelih17pAfWExNsU5hjVq6psS52/cCGx6S+7k243Xy7fTAwAyl5A==",
+  "success": true,
+  "projectFilePath": "D:\\Mecid_Files\\GitHub\\Csharp_projects\\Barcode_GeneratorReader\\Barcode_GeneratorReader.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\halab\\.nuget\\packages\\barcode\\2021.12.21\\barcode.2021.12.21.nupkg.sha512",
+    "C:\\Users\\halab\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\6.0.0\\microsoft.extensions.configuration.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\halab\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\halab\\.nuget\\packages\\microsoft.extensions.fileproviders.abstractions\\6.0.0\\microsoft.extensions.fileproviders.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\halab\\.nuget\\packages\\microsoft.extensions.hosting.abstractions\\6.0.0\\microsoft.extensions.hosting.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\halab\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0\\microsoft.extensions.primitives.6.0.0.nupkg.sha512",
+    "C:\\Users\\halab\\.nuget\\packages\\microsoft.netcore.platforms\\5.0.0\\microsoft.netcore.platforms.5.0.0.nupkg.sha512",
+    "C:\\Users\\halab\\.nuget\\packages\\microsoft.win32.systemevents\\5.0.0\\microsoft.win32.systemevents.5.0.0.nupkg.sha512",
+    "C:\\Users\\halab\\.nuget\\packages\\pdfdocuments\\6.0.0\\pdfdocuments.6.0.0.nupkg.sha512",
+    "C:\\Users\\halab\\.nuget\\packages\\pdfdocuments.ironbarcode\\6.0.0\\pdfdocuments.ironbarcode.6.0.0.nupkg.sha512",
+    "C:\\Users\\halab\\.nuget\\packages\\pdfsharpnetstandard2\\1.51.4845\\pdfsharpnetstandard2.1.51.4845.nupkg.sha512",
+    "C:\\Users\\halab\\.nuget\\packages\\system.drawing.common\\5.0.2\\system.drawing.common.5.0.2.nupkg.sha512",
+    "C:\\Users\\halab\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

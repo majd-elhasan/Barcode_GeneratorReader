@@ -1,0 +1,669 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {
+      "BarCode/2021.12.21": {
+        "type": "package",
+        "dependencies": {
+          "System.Drawing.Common": "5.0.2"
+        },
+        "compile": {
+          "lib/netstandard2.0/Babel.Licensing.dll": {},
+          "lib/netstandard2.0/BitMiracle.LibTiff.NET.dll": {},
+          "lib/netstandard2.0/BouncyCastle.Crypto.dll": {},
+          "lib/netstandard2.0/IronBarCode.dll": {},
+          "lib/netstandard2.0/IronPdf.Pdfium.Domain.dll": {},
+          "lib/netstandard2.0/IronPdf.Pdfium.dll": {},
+          "lib/netstandard2.0/IronSoftware.Analytics.dll": {},
+          "lib/netstandard2.0/IronSoftware.Common.dll": {},
+          "lib/netstandard2.0/IronSoftware.Deployment.dll": {},
+          "lib/netstandard2.0/IronSoftware.IronConfigurationManager.dll": {},
+          "lib/netstandard2.0/IronSoftware.Licenses.dll": {},
+          "lib/netstandard2.0/IronSoftware.Logger.dll": {},
+          "lib/netstandard2.0/IronSoftware.Standard.Aforge.dll": {},
+          "lib/netstandard2.0/Microsoft.DotNet.PlatformAbstractions.dll": {},
+          "lib/netstandard2.0/Microsoft.Extensions.DependencyModel.dll": {},
+          "lib/netstandard2.0/Microsoft.Extensions.Logging.Abstractions.dll": {},
+          "lib/netstandard2.0/NativeLibraryLoader.dll": {},
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {},
+          "lib/netstandard2.0/PdfSharpCore.dll": {},
+          "lib/netstandard2.0/SixLabors.ImageSharp.dll": {},
+          "lib/netstandard2.0/System.AppContext.dll": {},
+          "lib/netstandard2.0/System.Buffers.dll": {},
+          "lib/netstandard2.0/System.Dynamic.Runtime.dll": {},
+          "lib/netstandard2.0/System.IO.FileSystem.Primitives.dll": {},
+          "lib/netstandard2.0/System.Linq.Expressions.dll": {},
+          "lib/netstandard2.0/System.Linq.dll": {},
+          "lib/netstandard2.0/System.Memory.dll": {},
+          "lib/netstandard2.0/System.Numerics.Vectors.dll": {},
+          "lib/netstandard2.0/System.ObjectModel.dll": {},
+          "lib/netstandard2.0/System.Reflection.Emit.ILGeneration.dll": {},
+          "lib/netstandard2.0/System.Reflection.Emit.Lightweight.dll": {},
+          "lib/netstandard2.0/System.Reflection.Emit.dll": {},
+          "lib/netstandard2.0/System.Reflection.TypeExtensions.dll": {},
+          "lib/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll": {},
+          "lib/netstandard2.0/System.Threading.dll": {},
+          "lib/netstandard2.0/zxing.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Babel.Licensing.dll": {},
+          "lib/netstandard2.0/BitMiracle.LibTiff.NET.dll": {},
+          "lib/netstandard2.0/BouncyCastle.Crypto.dll": {},
+          "lib/netstandard2.0/IronBarCode.dll": {},
+          "lib/netstandard2.0/IronPdf.Pdfium.Domain.dll": {},
+          "lib/netstandard2.0/IronPdf.Pdfium.dll": {},
+          "lib/netstandard2.0/IronSoftware.Analytics.dll": {},
+          "lib/netstandard2.0/IronSoftware.Common.dll": {},
+          "lib/netstandard2.0/IronSoftware.Deployment.dll": {},
+          "lib/netstandard2.0/IronSoftware.IronConfigurationManager.dll": {},
+          "lib/netstandard2.0/IronSoftware.Licenses.dll": {},
+          "lib/netstandard2.0/IronSoftware.Logger.dll": {},
+          "lib/netstandard2.0/IronSoftware.Standard.Aforge.dll": {},
+          "lib/netstandard2.0/Microsoft.DotNet.PlatformAbstractions.dll": {},
+          "lib/netstandard2.0/Microsoft.Extensions.DependencyModel.dll": {},
+          "lib/netstandard2.0/Microsoft.Extensions.Logging.Abstractions.dll": {},
+          "lib/netstandard2.0/NativeLibraryLoader.dll": {},
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {},
+          "lib/netstandard2.0/PdfSharpCore.dll": {},
+          "lib/netstandard2.0/SixLabors.ImageSharp.dll": {},
+          "lib/netstandard2.0/System.AppContext.dll": {},
+          "lib/netstandard2.0/System.Buffers.dll": {},
+          "lib/netstandard2.0/System.Dynamic.Runtime.dll": {},
+          "lib/netstandard2.0/System.IO.FileSystem.Primitives.dll": {},
+          "lib/netstandard2.0/System.Linq.Expressions.dll": {},
+          "lib/netstandard2.0/System.Linq.dll": {},
+          "lib/netstandard2.0/System.Memory.dll": {},
+          "lib/netstandard2.0/System.Numerics.Vectors.dll": {},
+          "lib/netstandard2.0/System.ObjectModel.dll": {},
+          "lib/netstandard2.0/System.Reflection.Emit.ILGeneration.dll": {},
+          "lib/netstandard2.0/System.Reflection.Emit.Lightweight.dll": {},
+          "lib/netstandard2.0/System.Reflection.Emit.dll": {},
+          "lib/netstandard2.0/System.Reflection.TypeExtensions.dll": {},
+          "lib/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll": {},
+          "lib/netstandard2.0/System.Threading.dll": {},
+          "lib/netstandard2.0/zxing.dll": {}
+        }
+      },
+      "Microsoft.Extensions.Configuration.Abstractions/6.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Primitives": "6.0.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.Extensions.Configuration.Abstractions.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.Configuration.Abstractions.dll": {}
+        }
+      },
+      "Microsoft.Extensions.DependencyInjection.Abstractions/6.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {}
+        },
+        "build": {
+          "buildTransitive/netcoreapp3.1/_._": {}
+        }
+      },
+      "Microsoft.Extensions.FileProviders.Abstractions/6.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Primitives": "6.0.0"
+        },
+        "compile": {
+          "lib/net6.0/Microsoft.Extensions.FileProviders.Abstractions.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/Microsoft.Extensions.FileProviders.Abstractions.dll": {}
+        },
+        "build": {
+          "buildTransitive/netcoreapp3.1/_._": {}
+        }
+      },
+      "Microsoft.Extensions.Hosting.Abstractions/6.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Configuration.Abstractions": "6.0.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0",
+          "Microsoft.Extensions.FileProviders.Abstractions": "6.0.0"
+        },
+        "compile": {
+          "lib/netstandard2.1/Microsoft.Extensions.Hosting.Abstractions.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.1/Microsoft.Extensions.Hosting.Abstractions.dll": {}
+        }
+      },
+      "Microsoft.Extensions.Primitives/6.0.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Runtime.CompilerServices.Unsafe": "6.0.0"
+        },
+        "compile": {
+          "lib/net6.0/Microsoft.Extensions.Primitives.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/Microsoft.Extensions.Primitives.dll": {}
+        },
+        "build": {
+          "buildTransitive/netcoreapp3.1/_._": {}
+        }
+      },
+      "Microsoft.NETCore.Platforms/5.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard1.0/_._": {}
+        },
+        "runtime": {
+          "lib/netstandard1.0/_._": {}
+        }
+      },
+      "Microsoft.Win32.SystemEvents/5.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "5.0.0"
+        },
+        "compile": {
+          "ref/netstandard2.0/_._": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Win32.SystemEvents.dll": {}
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/netcoreapp3.0/Microsoft.Win32.SystemEvents.dll": {
+            "assetType": "runtime",
+            "rid": "win"
+          }
+        }
+      },
+      "PdfDocuments/6.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0",
+          "PDFsharpNetStandard2": "1.51.4845"
+        },
+        "compile": {
+          "lib/net6.0/PdfDocuments.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/PdfDocuments.dll": {}
+        }
+      },
+      "PdfDocuments.IronBarcode/6.0.0": {
+        "type": "package",
+        "dependencies": {
+          "BarCode": "2021.12.21",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0",
+          "Microsoft.Extensions.Hosting.Abstractions": "6.0.0",
+          "PdfDocuments": "6.0.0"
+        },
+        "compile": {
+          "lib/net6.0/PdfDocuments.IronBarcode.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/PdfDocuments.IronBarcode.dll": {}
+        }
+      },
+      "PDFsharpNetStandard2/1.51.4845": {
+        "type": "package",
+        "dependencies": {
+          "System.Drawing.Common": "4.5.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/PDFsharp.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/PDFsharp.dll": {}
+        }
+      },
+      "System.Drawing.Common/5.0.2": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Win32.SystemEvents": "5.0.0"
+        },
+        "compile": {
+          "ref/netcoreapp3.0/System.Drawing.Common.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/System.Drawing.Common.dll": {}
+        },
+        "runtimeTargets": {
+          "runtimes/unix/lib/netcoreapp3.0/System.Drawing.Common.dll": {
+            "assetType": "runtime",
+            "rid": "unix"
+          },
+          "runtimes/win/lib/netcoreapp3.0/System.Drawing.Common.dll": {
+            "assetType": "runtime",
+            "rid": "win"
+          }
+        }
+      },
+      "System.Runtime.CompilerServices.Unsafe/6.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/System.Runtime.CompilerServices.Unsafe.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/System.Runtime.CompilerServices.Unsafe.dll": {}
+        },
+        "build": {
+          "buildTransitive/netcoreapp3.1/_._": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "BarCode/2021.12.21": {
+      "sha512": "oY4774+3CbLtyxQ8sGDtJky+kqE2i79cuKqRSJb+Z/9D2khKCbxdPeA6CTyAo7AiNQOjVNJmkjr9LBZKV/UoVQ==",
+      "type": "package",
+      "path": "barcode/2021.12.21",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "EULA.txt",
+        "barcode.2021.12.21.nupkg.sha512",
+        "barcode.nuspec",
+        "lib/net40/Babel.Licensing.dll",
+        "lib/net40/BitMiracle.LibTiff.NET.dll",
+        "lib/net40/BouncyCastle.Crypto.dll",
+        "lib/net40/DotNetZip.dll",
+        "lib/net40/IronBarCode.dll",
+        "lib/net40/IronBarCode.xml",
+        "lib/net40/IronPdf.Pdfium.Domain.dll",
+        "lib/net40/IronPdf.Pdfium.dll",
+        "lib/net40/IronSoftware.Analytics.dll",
+        "lib/net40/IronSoftware.Common.dll",
+        "lib/net40/IronSoftware.Deployment.dll",
+        "lib/net40/IronSoftware.IronConfigurationManager.dll",
+        "lib/net40/IronSoftware.Licenses.dll",
+        "lib/net40/IronSoftware.Logger.dll",
+        "lib/net40/IronSoftware.Standard.Aforge.dll",
+        "lib/net40/NativeLibraryLoader.dll",
+        "lib/net40/Newtonsoft.Json.dll",
+        "lib/net40/PdfSharp.dll",
+        "lib/net40/zxing.dll",
+        "lib/net40/zxing.presentation.dll",
+        "lib/netstandard2.0/Babel.Licensing.dll",
+        "lib/netstandard2.0/BitMiracle.LibTiff.NET.dll",
+        "lib/netstandard2.0/BouncyCastle.Crypto.dll",
+        "lib/netstandard2.0/IronBarCode.dll",
+        "lib/netstandard2.0/IronBarCode.xml",
+        "lib/netstandard2.0/IronPdf.Pdfium.Domain.dll",
+        "lib/netstandard2.0/IronPdf.Pdfium.dll",
+        "lib/netstandard2.0/IronSoftware.Analytics.dll",
+        "lib/netstandard2.0/IronSoftware.Common.dll",
+        "lib/netstandard2.0/IronSoftware.Deployment.dll",
+        "lib/netstandard2.0/IronSoftware.IronConfigurationManager.dll",
+        "lib/netstandard2.0/IronSoftware.Licenses.dll",
+        "lib/netstandard2.0/IronSoftware.Logger.dll",
+        "lib/netstandard2.0/IronSoftware.Standard.Aforge.dll",
+        "lib/netstandard2.0/Microsoft.DotNet.PlatformAbstractions.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.DependencyModel.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.Logging.Abstractions.dll",
+        "lib/netstandard2.0/NativeLibraryLoader.dll",
+        "lib/netstandard2.0/Newtonsoft.Json.dll",
+        "lib/netstandard2.0/PdfSharpCore.dll",
+        "lib/netstandard2.0/SixLabors.ImageSharp.dll",
+        "lib/netstandard2.0/System.AppContext.dll",
+        "lib/netstandard2.0/System.Buffers.dll",
+        "lib/netstandard2.0/System.Dynamic.Runtime.dll",
+        "lib/netstandard2.0/System.IO.FileSystem.Primitives.dll",
+        "lib/netstandard2.0/System.Linq.Expressions.dll",
+        "lib/netstandard2.0/System.Linq.dll",
+        "lib/netstandard2.0/System.Memory.dll",
+        "lib/netstandard2.0/System.Numerics.Vectors.dll",
+        "lib/netstandard2.0/System.ObjectModel.dll",
+        "lib/netstandard2.0/System.Reflection.Emit.ILGeneration.dll",
+        "lib/netstandard2.0/System.Reflection.Emit.Lightweight.dll",
+        "lib/netstandard2.0/System.Reflection.Emit.dll",
+        "lib/netstandard2.0/System.Reflection.TypeExtensions.dll",
+        "lib/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll",
+        "lib/netstandard2.0/System.Threading.dll",
+        "lib/netstandard2.0/zxing.dll",
+        "readme-setup.txt",
+        "readme.txt"
+      ]
+    },
+    "Microsoft.Extensions.Configuration.Abstractions/6.0.0": {
+      "sha512": "qWzV9o+ZRWq+pGm+1dF+R7qTgTYoXvbyowRoBxQJGfqTpqDun2eteerjRQhq5PQ/14S+lqto3Ft4gYaRyl4rdQ==",
+      "type": "package",
+      "path": "microsoft.extensions.configuration.abstractions/6.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net461/Microsoft.Extensions.Configuration.Abstractions.dll",
+        "lib/net461/Microsoft.Extensions.Configuration.Abstractions.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.Configuration.Abstractions.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.Configuration.Abstractions.xml",
+        "microsoft.extensions.configuration.abstractions.6.0.0.nupkg.sha512",
+        "microsoft.extensions.configuration.abstractions.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    },
+    "Microsoft.Extensions.DependencyInjection.Abstractions/6.0.0": {
+      "sha512": "xlzi2IYREJH3/m6+lUrQlujzX8wDitm4QGnUu6kUXTQAWPuZY8i+ticFJbzfqaetLA6KR/rO6Ew/HuYD+bxifg==",
+      "type": "package",
+      "path": "microsoft.extensions.dependencyinjection.abstractions/6.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/netcoreapp2.0/Microsoft.Extensions.DependencyInjection.Abstractions.targets",
+        "buildTransitive/netcoreapp3.1/_._",
+        "lib/net461/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "lib/net461/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
+        "lib/net6.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "lib/net6.0/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
+        "lib/netstandard2.1/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "lib/netstandard2.1/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
+        "microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
+        "microsoft.extensions.dependencyinjection.abstractions.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    },
+    "Microsoft.Extensions.FileProviders.Abstractions/6.0.0": {
+      "sha512": "0pd4/fho0gC12rQswaGQxbU34jOS1TPS8lZPpkFCH68ppQjHNHYle9iRuHeev1LhrJ94YPvzcRd8UmIuFk23Qw==",
+      "type": "package",
+      "path": "microsoft.extensions.fileproviders.abstractions/6.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/netcoreapp2.0/Microsoft.Extensions.FileProviders.Abstractions.targets",
+        "buildTransitive/netcoreapp3.1/_._",
+        "lib/net461/Microsoft.Extensions.FileProviders.Abstractions.dll",
+        "lib/net461/Microsoft.Extensions.FileProviders.Abstractions.xml",
+        "lib/net6.0/Microsoft.Extensions.FileProviders.Abstractions.dll",
+        "lib/net6.0/Microsoft.Extensions.FileProviders.Abstractions.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.FileProviders.Abstractions.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.FileProviders.Abstractions.xml",
+        "microsoft.extensions.fileproviders.abstractions.6.0.0.nupkg.sha512",
+        "microsoft.extensions.fileproviders.abstractions.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    },
+    "Microsoft.Extensions.Hosting.Abstractions/6.0.0": {
+      "sha512": "GcT5l2CYXL6Sa27KCSh0TixsRfADUgth+ojQSD5EkzisZxmGFh7CwzkcYuGwvmXLjr27uWRNrJ2vuuEjMhU05Q==",
+      "type": "package",
+      "path": "microsoft.extensions.hosting.abstractions/6.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net461/Microsoft.Extensions.Hosting.Abstractions.dll",
+        "lib/net461/Microsoft.Extensions.Hosting.Abstractions.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.Hosting.Abstractions.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.Hosting.Abstractions.xml",
+        "lib/netstandard2.1/Microsoft.Extensions.Hosting.Abstractions.dll",
+        "lib/netstandard2.1/Microsoft.Extensions.Hosting.Abstractions.xml",
+        "microsoft.extensions.hosting.abstractions.6.0.0.nupkg.sha512",
+        "microsoft.extensions.hosting.abstractions.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    },
+    "Microsoft.Extensions.Primitives/6.0.0": {
+      "sha512": "9+PnzmQFfEFNR9J2aDTfJGGupShHjOuGw4VUv+JB044biSHrnmCIMD+mJHmb2H7YryrfBEXDurxQ47gJZdCKNQ==",
+      "type": "package",
+      "path": "microsoft.extensions.primitives/6.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/netcoreapp2.0/Microsoft.Extensions.Primitives.targets",
+        "buildTransitive/netcoreapp3.1/_._",
+        "lib/net461/Microsoft.Extensions.Primitives.dll",
+        "lib/net461/Microsoft.Extensions.Primitives.xml",
+        "lib/net6.0/Microsoft.Extensions.Primitives.dll",
+        "lib/net6.0/Microsoft.Extensions.Primitives.xml",
+        "lib/netcoreapp3.1/Microsoft.Extensions.Primitives.dll",
+        "lib/netcoreapp3.1/Microsoft.Extensions.Primitives.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.Primitives.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.Primitives.xml",
+        "microsoft.extensions.primitives.6.0.0.nupkg.sha512",
+        "microsoft.extensions.primitives.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    },
+    "Microsoft.NETCore.Platforms/5.0.0": {
+      "sha512": "VyPlqzH2wavqquTcYpkIIAQ6WdenuKoFN0BdYBbCWsclXacSOHNQn66Gt4z5NBqEYW0FAPm5rlvki9ZiCij5xQ==",
+      "type": "package",
+      "path": "microsoft.netcore.platforms/5.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/netstandard1.0/_._",
+        "microsoft.netcore.platforms.5.0.0.nupkg.sha512",
+        "microsoft.netcore.platforms.nuspec",
+        "runtime.json",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "Microsoft.Win32.SystemEvents/5.0.0": {
+      "sha512": "Bh6blKG8VAKvXiLe2L+sEsn62nc1Ij34MrNxepD2OCrS5cpCwQa9MeLyhVQPQ/R4Wlzwuy6wMK8hLb11QPDRsQ==",
+      "type": "package",
+      "path": "microsoft.win32.systemevents/5.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net461/Microsoft.Win32.SystemEvents.dll",
+        "lib/net461/Microsoft.Win32.SystemEvents.xml",
+        "lib/netstandard2.0/Microsoft.Win32.SystemEvents.dll",
+        "lib/netstandard2.0/Microsoft.Win32.SystemEvents.xml",
+        "microsoft.win32.systemevents.5.0.0.nupkg.sha512",
+        "microsoft.win32.systemevents.nuspec",
+        "ref/net461/Microsoft.Win32.SystemEvents.dll",
+        "ref/net461/Microsoft.Win32.SystemEvents.xml",
+        "ref/netstandard2.0/Microsoft.Win32.SystemEvents.dll",
+        "ref/netstandard2.0/Microsoft.Win32.SystemEvents.xml",
+        "runtimes/win/lib/netcoreapp2.0/Microsoft.Win32.SystemEvents.dll",
+        "runtimes/win/lib/netcoreapp2.0/Microsoft.Win32.SystemEvents.xml",
+        "runtimes/win/lib/netcoreapp3.0/Microsoft.Win32.SystemEvents.dll",
+        "runtimes/win/lib/netcoreapp3.0/Microsoft.Win32.SystemEvents.xml",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "PdfDocuments/6.0.0": {
+      "sha512": "PWr1ggavgwLstX1yGZ/84qppww45GiARn0IYQ4I0z3htvc7y558QEmFrgOk0bBDlQe2nq/AGgolVinoe/5Za3Q==",
+      "type": "package",
+      "path": "pdfdocuments/6.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "PdfDcouments.png",
+        "README.md",
+        "lib/net6.0/PdfDocuments.dll",
+        "pdfdocuments.6.0.0.nupkg.sha512",
+        "pdfdocuments.nuspec"
+      ]
+    },
+    "PdfDocuments.IronBarcode/6.0.0": {
+      "sha512": "LHqrJtuixC8IrELyjGhK/ooPMd4BsXO1ES3fe7gwGrMg/hN/3TUiEjT4h8GnTddm/CJOI+FnjwIA1+FC5FACsQ==",
+      "type": "package",
+      "path": "pdfdocuments.ironbarcode/6.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "PdfDcouments.png",
+        "lib/net6.0/PdfDocuments.IronBarcode.dll",
+        "pdfdocuments.ironbarcode.6.0.0.nupkg.sha512",
+        "pdfdocuments.ironbarcode.nuspec"
+      ]
+    },
+    "PDFsharpNetStandard2/1.51.4845": {
+      "sha512": "M3eJmLeFxNY+2dZdsC0SjLyQISCLRWUJT960AzyzqjHxuFulToeNEkV5A56N0u+Y0vu3kx3B3i8dbBh6MgZxjA==",
+      "type": "package",
+      "path": "pdfsharpnetstandard2/1.51.4845",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/PDFsharp.dll",
+        "pdfsharpnetstandard2.1.51.4845.nupkg.sha512",
+        "pdfsharpnetstandard2.nuspec"
+      ]
+    },
+    "System.Drawing.Common/5.0.2": {
+      "sha512": "rvr/M1WPf24ljpvvrVd74+NdjRUJu1bBkspkZcnzSZnmAUQWSvanlQ0k/hVHk+cHufZbZfu7vOh/vYc0q5Uu/A==",
+      "type": "package",
+      "path": "system.drawing.common/5.0.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/net461/System.Drawing.Common.dll",
+        "lib/netcoreapp3.0/System.Drawing.Common.dll",
+        "lib/netcoreapp3.0/System.Drawing.Common.xml",
+        "lib/netstandard2.0/System.Drawing.Common.dll",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "ref/MonoAndroid10/_._",
+        "ref/MonoTouch10/_._",
+        "ref/net461/System.Drawing.Common.dll",
+        "ref/netcoreapp3.0/System.Drawing.Common.dll",
+        "ref/netcoreapp3.0/System.Drawing.Common.xml",
+        "ref/netstandard2.0/System.Drawing.Common.dll",
+        "ref/xamarinios10/_._",
+        "ref/xamarinmac20/_._",
+        "ref/xamarintvos10/_._",
+        "ref/xamarinwatchos10/_._",
+        "runtimes/unix/lib/netcoreapp2.0/System.Drawing.Common.dll",
+        "runtimes/unix/lib/netcoreapp3.0/System.Drawing.Common.dll",
+        "runtimes/unix/lib/netcoreapp3.0/System.Drawing.Common.xml",
+        "runtimes/win/lib/netcoreapp2.0/System.Drawing.Common.dll",
+        "runtimes/win/lib/netcoreapp3.0/System.Drawing.Common.dll",
+        "runtimes/win/lib/netcoreapp3.0/System.Drawing.Common.xml",
+        "system.drawing.common.5.0.2.nupkg.sha512",
+        "system.drawing.common.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "System.Runtime.CompilerServices.Unsafe/6.0.0": {
+      "sha512": "/iUeP3tq1S0XdNNoMz5C9twLSrM/TH+qElHkXWaPvuNOt+99G75NrV0OS2EqHx5wMN7popYjpc8oTjC1y16DLg==",
+      "type": "package",
+      "path": "system.runtime.compilerservices.unsafe/6.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/netcoreapp2.0/System.Runtime.CompilerServices.Unsafe.targets",
+        "buildTransitive/netcoreapp3.1/_._",
+        "lib/net461/System.Runtime.CompilerServices.Unsafe.dll",
+        "lib/net461/System.Runtime.CompilerServices.Unsafe.xml",
+        "lib/net6.0/System.Runtime.CompilerServices.Unsafe.dll",
+        "lib/net6.0/System.Runtime.CompilerServices.Unsafe.xml",
+        "lib/netcoreapp3.1/System.Runtime.CompilerServices.Unsafe.dll",
+        "lib/netcoreapp3.1/System.Runtime.CompilerServices.Unsafe.xml",
+        "lib/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll",
+        "lib/netstandard2.0/System.Runtime.CompilerServices.Unsafe.xml",
+        "system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
+        "system.runtime.compilerservices.unsafe.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0": [
+      "PdfDocuments.IronBarcode >= 6.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\halab\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "d:\\Mecid_Files\\GitHub\\Csharp_projects\\Barcode_GeneratorReader\\Barcode_GeneratorReader.csproj",
+      "projectName": "Barcode_GeneratorReader",
+      "projectPath": "d:\\Mecid_Files\\GitHub\\Csharp_projects\\Barcode_GeneratorReader\\Barcode_GeneratorReader.csproj",
+      "packagesPath": "C:\\Users\\halab\\.nuget\\packages\\",
+      "outputPath": "d:\\Mecid_Files\\GitHub\\Csharp_projects\\Barcode_GeneratorReader\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\halab\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "dependencies": {
+          "PdfDocuments.IronBarcode": {
+            "target": "Package",
+            "version": "[6.0.0, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
